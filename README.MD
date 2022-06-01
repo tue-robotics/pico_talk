@@ -1,3 +1,5 @@
-sudo apt-get install libespeak-dev
-sudo apt-get install python3-pip
+Install Dependencies
+```
+sudo apt-get install libespeak-dev python3-pip
 pip install python-espeak
+```
