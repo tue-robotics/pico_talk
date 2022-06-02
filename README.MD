@@ -13,4 +13,7 @@ Run the file
 ```
 rosrun pico_talk speech_server.py
 ```
-
+or
+```
+rosrun pico_talk speech_server.py /speech/topic/here
+``'

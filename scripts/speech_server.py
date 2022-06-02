@@ -12,7 +12,7 @@ def callback(data,args):
 	args.say(data.data)
 
 
-def main(topic = "/pico/speak"):
+def main(topic = "/pyro/text_to_speech/input"):
 	# init espeak 
 	espeak.init();
 	speaker = espeak.Espeak()
