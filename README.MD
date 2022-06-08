@@ -4,6 +4,7 @@
 
 ```bash
 sudo apt-get install libespeak-dev python3-pip
+sudo apt-get ffmpeg
 pip install python-espeak
 ```
 
