@@ -14,7 +14,8 @@ def talkcallback(data,args):
 def filecallback(data):
 	rospy.loginfo("SpeechServer received play command")
 	rospy.loginfo("Pyro plays: " + data.data)
-	subprocess.run(["ffplay -i", data.data, "-loglevel error -nodisp -autoexit"], shell=True) 
+	path = ("~/MRC_audio/" + data.data)
+	subprocess.run(("ffplay -i " + path + " -loglevel error -nodisp -autoexit"), shell=True) 
 
 
 def main(topic = "/pyro/text_to_speech/input"):
