@@ -4,17 +4,17 @@
 
 ```bash
 sudo apt-get install libespeak-dev python3-pip
-sudo apt-get ffmpeg
+sudo apt-get install ffmpeg
 pip install python-espeak
 ```
 
-Make sure the python script is executable
+## Make sure the python script is executable
 
 ```bash
 chmod +x ./path/to/file/speech_server.py
 ```
 
-Run the file
+## Run the file
 
 ```bash
 rosrun pico_talk speech_server.py
